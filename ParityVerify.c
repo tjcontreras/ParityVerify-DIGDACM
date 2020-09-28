@@ -68,6 +68,7 @@ int main(int argc, char** argv){
 	return 0;
 }
 
+//removes the unnecessary spaces from the input
 void removeSpaces(char *str) 
 { 
 	    // To keep track of non-space character count 
@@ -142,7 +143,7 @@ void TwoDParityModular(int start, int end, char *input, char *data,int *err){
 		//	printf("%c", parTable[row][col]);
 			strncat(data, &parTable[row][col], 1);
 			}
-			strcat(data, " ");
+		//	strcat(data, " ");
 	}
 	
 	
